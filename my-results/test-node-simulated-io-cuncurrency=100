@@ -1,0 +1,49 @@
+Benchmarking 127.0.0.1 (be patient)
+Completed 500 requests
+Completed 1000 requests
+Completed 1500 requests
+Completed 2000 requests
+Completed 2500 requests
+Completed 3000 requests
+Completed 3500 requests
+Completed 4000 requests
+Completed 4500 requests
+Completed 5000 requests
+Finished 5000 requests
+
+
+Server Software:        
+Server Hostname:        127.0.0.1
+Server Port:            8000
+
+Document Path:          /simulated-io
+Document Length:        2 bytes
+
+Concurrency Level:      100
+Time taken for tests:   6.474 seconds
+Complete requests:      5000
+Failed requests:        0
+Total transferred:      545000 bytes
+HTML transferred:       10000 bytes
+Requests per second:    772.37 [#/sec] (mean)
+Time per request:       129.472 [ms] (mean)
+Time per request:       1.295 [ms] (mean, across all concurrent requests)
+Transfer rate:          82.22 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   1.1      1       7
+Processing:    99  125  17.2    124     232
+Waiting:       99  118  14.5    116     225
+Total:         99  126  17.5    126     235
+
+Percentage of the requests served within a certain time (ms)
+  50%    126
+  66%    131
+  75%    133
+  80%    135
+  90%    143
+  95%    148
+  98%    164
+  99%    231
+ 100%    235 (longest request)

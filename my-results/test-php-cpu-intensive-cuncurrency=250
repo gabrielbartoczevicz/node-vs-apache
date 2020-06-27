@@ -1,0 +1,49 @@
+Benchmarking 127.0.0.1 (be patient)
+Completed 500 requests
+Completed 1000 requests
+Completed 1500 requests
+Completed 2000 requests
+Completed 2500 requests
+Completed 3000 requests
+Completed 3500 requests
+Completed 4000 requests
+Completed 4500 requests
+Completed 5000 requests
+Finished 5000 requests
+
+
+Server Software:        Apache/2.4.43
+Server Hostname:        127.0.0.1
+Server Port:            8000
+
+Document Path:          /cpu-intensive.php
+Document Length:        3149 bytes
+
+Concurrency Level:      250
+Time taken for tests:   130.192 seconds
+Complete requests:      5000
+Failed requests:        0
+Total transferred:      16710000 bytes
+HTML transferred:       15745000 bytes
+Requests per second:    38.40 [#/sec] (mean)
+Time per request:       6509.625 [ms] (mean)
+Time per request:       26.038 [ms] (mean, across all concurrent requests)
+Transfer rate:          125.34 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   1.0      0       7
+Processing:   120 6438 1191.5   6682    8817
+Waiting:      113 6405 1185.8   6647    8817
+Total:        120 6438 1190.8   6682    8817
+
+Percentage of the requests served within a certain time (ms)
+  50%   6682
+  66%   6917
+  75%   7059
+  80%   7171
+  90%   7492
+  95%   7866
+  98%   8233
+  99%   8413
+ 100%   8817 (longest request)
